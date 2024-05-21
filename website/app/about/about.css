@@ -1,0 +1,61 @@
+
+.about-text {
+    text-align: left;
+    margin-left: 28.5dvh;
+  }
+  
+  .about-divider h2{
+    text-align: left;
+    font-weight: 400;
+    line-height: 85%;
+  }
+  
+.about-text h1{
+    font-family: "PowerChord Regular";
+    text-align: left;
+    font-size: 90px;
+    margin-top: 150px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    line-height: 85%;
+}
+  
+.about-text h2{
+    font-family: "MonoramaRegular";
+    text-align: left;
+    margin-top: 20px;
+    margin-right: 550px;
+    font-size: 1.2vw;
+    color: #322c26;
+}
+  
+.about-text h3{
+    margin-top: 20px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 85%;
+    color: #322c26;
+}
+  
+/*RESUME*/
+.resume {
+    display: flex;
+    text-align: left;
+    margin-top: 2.5vh;
+    margin-left: 28.5dvh; 
+    display: inline-block;
+    min-width: fit-content;
+}
+  
+.resume p{
+    font-size: 1.2vw;
+    color: #322c26;
+}
+  
+.resume span{
+    font-size: 1em;
+    font-size: 1.2vw;
+    color: #322c26;
+    font-family: "MonoramaRegular";
+}
+  

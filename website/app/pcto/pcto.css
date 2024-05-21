@@ -1,0 +1,98 @@
+
+.pcto-text {
+    text-align: left;
+    margin-left: 28.5dvh;
+}
+  
+.pcto-divider h2{
+    text-align: left;
+    font-weight: 400;
+    line-height: 85%;
+    
+}
+  
+.pcto-text h1{
+    font-family: "PowerChord Regular";
+    text-align: left;
+    font-size: 90px;
+    margin-top: 150px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    line-height: 85%;
+    color: #322c26;
+}
+
+.pcto-text h3{
+    margin-top: 20px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 85%;
+    color: #322c26;
+}
+
+.policlinico h2,
+.heartbrain h2{
+    font-family: "MonoramaRegular";
+    font-size: 4dvh;
+    margin-bottom: 1px;
+    text-align: left; 
+    color: #322c26;
+}
+
+.policlinico p,
+.heartbrain p{
+    font-family: "MonoramaRegular";
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 550px;
+    font-size: 1.2vw;
+    color: #322c26;
+}
+
+.policlinico span,
+.heartbrain span {
+    font-family: "MonoramaRegular";
+    font-size: 1.2vw;
+    color: #322c26;
+}
+
+button {
+    position: relative;
+    background: none;
+    outline: none;
+    border: 1px solid #322c26;
+    border-radius: 0.25em;
+    font-size: 17px;
+    color: var(--color-text);
+    font-family: "MonoramaRegular";
+    padding: 0.25em 0.75em;
+    cursor: pointer;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: all 0.03s;
+    z-index: 1;
+}
+
+button span {
+    padding-right: 0.5em;
+}
+
+button:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #322c26;
+    z-index: -1;
+    transition: all 0.3s;
+}
+
+button:hover {
+    color: #F2D0A4;
+}
+
+button:hover:after {
+    width: 100%;
+}

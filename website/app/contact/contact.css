@@ -1,0 +1,67 @@
+
+.contact h1{ 
+  font-family: "PowerChord Regular";
+  text-align: left;
+  font-size: 90px;
+  font-weight: 400;
+  margin-top: 150px;
+  letter-spacing: 0.03em;
+  line-height: 85%;
+  margin-left: 28.5dvh;
+  color: #322c26;
+}
+
+.contact h3{
+  color: #322c26;
+  margin-left: 28.5dvh;
+}
+.contact-sections {
+  margin-left: 28.5dvh;
+  justify-content: flex-start;
+  flex-direction: row; 
+  margin-top: 20px; 
+}
+  
+.twitter,
+.instagram,
+.linkedin {
+  margin-top: 2.5vh;
+  min-width: fit-content;
+  font-family: "MonoramaRegular";
+}
+  
+.mail h2,
+.social h2 {
+  font-size: 5dvh;
+  margin-bottom: 1px;
+  text-align: left;
+}
+  
+.mail,
+.social {
+  width: 50%;
+  text-align: left;
+  display: inline-block;
+  font-family: "MonoramaRegular";
+}
+  
+.mail p {
+  font-size: 3dvh;
+  margin-top: 3dvh;
+  margin-right: 10px;
+}
+
+.social-links a {
+  font-size: 3dvh;
+  margin-top: 3dvh;
+  margin-right: 5dvh; 
+}
+.social-links {
+  display: flex; 
+  flex-wrap: nowrap; 
+}
+.mail p,
+.social-links a,
+.social h2 {
+  color: #322c26;
+}
