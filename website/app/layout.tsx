@@ -23,6 +23,7 @@ export default function RootLayout({
 
         
         <Menu /> 
+        <Cursor/>
         {children}
       </body>
     </html>

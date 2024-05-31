@@ -1,11 +1,15 @@
 "use client"
 
 import React, { useEffect } from "react";
-import { gsap } from "gsap";
 import animateLinkHover from "../animateLinkLine";
 import "./contact.css"
 
 export default function Contact() {
+
+    animateLinkHover(".twitter2", "82%");
+    animateLinkHover(".instagram2", "84%");
+    animateLinkHover(".linkedin2", "83%");
+
     useEffect(() => {
         const elementsToAnimate = document.querySelectorAll(".social-links span, .contact h1,.mail p, .mail h2");
         let animationInitialized = false;
@@ -18,34 +22,29 @@ export default function Contact() {
                 const originalText = element.textContent || "";
                 let index = 0;
       
-            const shuffleElement = setInterval(() => {
-                if (index < originalText.length) {
-                    let shuffledText = "";
-                    for (let i = 0; i <= index; i++) {
-                    shuffledText +=
-                        i < index ? originalText[i] : Math.random().toString(36)[2];
+                const shuffleElement = setInterval(() => {
+                    if (index < originalText.length) {
+                        let shuffledText = "";
+                        for (let i = 0; i <= index; i++) {
+                        shuffledText +=
+                            i < index ? originalText[i] : Math.random().toString(36)[2];
+                        }
+                        if (element) {
+                        element.textContent =
+                            shuffledText + originalText.substring(index + 1);
+                        }
+                        index++;
+                    } else {
+                        clearInterval(shuffleElement);
+                        if (element) {
+                        element.textContent = originalText;
+                        }
                     }
-                    if (element) {
-                    element.textContent =
-                        shuffledText + originalText.substring(index + 1);
-                    }
-                    index++;
-                } else {
-                    clearInterval(shuffleElement);
-                    if (element) {
-                    element.textContent = originalText;
-                    }
-                }
-            }, 60);
-        });
-    }
-      
+                }, 60);
+            });
+        }
         animateElements();
-      });
-
-    animateLinkHover(".social-links", "82%");
-    animateLinkHover(".instagram", "84%");
-    animateLinkHover(".linkedin", "83%");
+    });
 
     return ( 
         <main> 
@@ -63,16 +62,18 @@ export default function Contact() {
                     <div className="social">
                         <h2>SOCIAL MEDIA</h2>
                         <div className="social-links">
-                            <div className="twitter">
-                                <a href="#"><span>&#8599; Twitter</span></a>
+                            <div className="twitter2">
+                                <a href="#">&#8599; twitter</a>
                                 <div className="underline"></div>
                             </div>
-                            <div className="instagram">
-                                <a href="#"><span>&#8599; Instagram</span></a>
+
+                            <div className="instagram2">
+                                <a href="#">&#8599; instagram</a>
                                 <div className="underline"></div>
                             </div>
-                            <div className="linkedin">
-                                <a href="#"><span>&#8599; Linkedin</span></a>
+
+                            <div className="linkedin2">
+                                <a href="#">&#8599; linkedin</a>
                                 <div className="underline"></div>
                             </div>
                         </div>

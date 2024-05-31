@@ -33,12 +33,12 @@
     left: 45.5%;
     position: fixed;
     font-size: 8dvh;
-    color: var(--color-text);   
+    color: var(--color-bg);   
 }
 
 p {
     font-size: 8dvh;
-    color: var(--color-text);  
+    color: var(--color-bg);  
 }
 
 .counter{

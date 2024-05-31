@@ -8,7 +8,6 @@
     display: flex;
     justify-content: space-between;
     align-items: left;
-    /*z-index: 1;*/
 }
 
 .shuffle-text {
@@ -40,7 +39,10 @@ FCDE9C
 FFA552
 BA5624
 550C18*/
-.menu-logo a{
+
+
+.menu-logo a,
+.menu-logo2 a{
     color: #ffd6a1;
     font-size: 30px;
     letter-spacing: 0.03em;
@@ -129,7 +131,7 @@ BA5624
 
 .menu-link-item-holder a {
     color: #ffd6a1;
-    font-size: 80px;
+    font-size: 11dvh;
     font-weight: 400;
     letter-spacing: 0.03em;
     line-height: 85%;
@@ -142,23 +144,46 @@ BA5624
 
 .menu-info a,
 .menu-info p{
-    font-size: 20px;
+    font-size: 2.7dvh;
     color: #ffd6a1;
 }
+
 .menu-info-col {
-    flex: 1;
+    flex: 3;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     font-family: 'MonoramaRegular';
 }
 
-.menu-info-col a { 
-    margin-bottom: 10px; /* Aggiunge spazio tra i link */
+.menu-info-col2 {
+    flex: 2;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    font-family: 'MonoramaRegular';
 }
 
-.menu-info-col p {
-    margin-bottom: 10px; /* Aggiunge spazio tra i paragrafi */
+.menu-info-col2 p{
+    margin-bottom: 11px;
+    color:#ffd6a1;
+}
+
+.instagram,
+.linkedin {
+    margin-top: 18.5px;
+}
+
+.mail {
+    margin-bottom: 15px;
+}
+
+.underline2{
+    height: 2.5px;
+    width: 0;
+    margin-top: 7px;
+    text-align: left;
+    background-color:#ffd6a1;     
 }
 
 @media (max-width: 900px){

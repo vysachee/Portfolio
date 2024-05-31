@@ -6,8 +6,8 @@ import "./cursor.css"
 const Cursor = () => {
     
     useEffect(() => {
-        const cursor = document.getElementById('custom-cursor')!
-        const links = document.querySelectorAll('a')
+        const cursor = document.getElementById('custom-cursor')!;
+        const links = document.querySelectorAll('a');
         
         cursor.style.display = "none";
         
@@ -21,10 +21,10 @@ const Cursor = () => {
             const link = event.target as HTMLElement;
             
             if(link.classList.contains('view')){
-                gsap.to(cursor,{scale:3.5})
+                gsap.to(cursor,{scale:3})
                 cursor.style.display = 'block';
             }else{
-                gsap.to(cursor,{scale:3.5})
+                gsap.to(cursor,{scale:3})
             }
         };
 

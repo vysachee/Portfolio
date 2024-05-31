@@ -14,7 +14,7 @@ const menuLinks = [
 ];
 
 const Menu = () => {
-
+  
   animateLinkHover(".twitter", "35%");
   animateLinkHover(".instagram", "35%");
   animateLinkHover(".linkedin", "35%");
@@ -27,16 +27,19 @@ const Menu = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+  
 
   useEffect(() => {
     gsap.set(".menu-link-item-holder", { y: 75 });
 
     tl.current = gsap.timeline({ paused: true })
+    
       .to(".menu-overlay", {
         duration: 1,
         clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
         ease: "power3.in0ut",
       })
+
       .to(".menu-link-item-holder", {
         y: 0,
         duration: 1,
@@ -55,9 +58,11 @@ const Menu = () => {
   }, [isMenuOpen]);
 
   return (
+
     <div className="menu-container" ref={container}>
       <div className="menu-bar">
-        <div className="menu-logo" onClick={toggleMenu}>
+        
+        <div className="menu-logo" >
           <Link href="/homePage" >toms</Link>
         </div>
         <div className="menu-open" onClick={toggleMenu}>
@@ -67,7 +72,7 @@ const Menu = () => {
 
       <div className="menu-overlay">
         <div className="menu-overlay-bar">
-          <div className="menu-logo">
+          <div className="menu-logo2" onClick={toggleMenu}>
             <Link href="/homePage">toms</Link>
           </div>
           <div className="menu-close" onClick={toggleMenu}>
@@ -97,24 +102,22 @@ const Menu = () => {
 
               <div className="twitter">
                 <a href="#">&#8599; twitter</a>
-                <div className="underline"></div>
+                <div className="underline2"></div>
               </div>
 
               <div className="instagram">
                 <a href="#">&#8599; instagram</a>
-                <div className="underline"></div>
+                <div className="underline2"></div>
               </div>
 
               <div className="linkedin">
                 <a href="#">&#8599; linkedin</a>
-                <div className="underline"></div>
+                <div className="underline2"></div>
               </div>
             </div>
             
-            <div className="menu-info-col">
-              <p>&#8599; toms.d27@gmail.com</p>
-              <div className="underline"></div>
-              <p>191 872 3912</p>
+            <div className="menu-info-col2">
+                <p>toms.d27@gmail.com</p>
             </div>
           </div>
         </div>

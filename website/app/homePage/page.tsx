@@ -1,5 +1,5 @@
 "use client"
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
 import Link from 'next/link';
 import './home.css';
