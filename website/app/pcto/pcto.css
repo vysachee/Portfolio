@@ -1,54 +1,49 @@
 
+/*TESTO*/
 .pcto-text {
-    text-align: left;
-    margin-left: 28.5dvh;
-}
-  
-.pcto-divider h2{
-    text-align: left;
-    font-weight: 400;
-    line-height: 85%;
     
+    margin-left: 28.5dvh;
 }
   
 .pcto-text h1{
     font-family: "PowerChord Regular";
     text-align: left;
+    margin-left: 60dvh;
     font-size: 90px;
-    margin-top: 150px;
+    margin-top: 120px;
     font-weight: 400;
     letter-spacing: 0.03em;
     line-height: 85%;
     color: #322c26;
 }
 
-.pcto-text h3{
-    margin-top: 20px;
-    text-align: left;
-    font-weight: 400;
-    line-height: 85%;
-    color: #322c26;
-}
 
+.showtell h2,
+.pon h2,
 .policlinico h2,
 .heartbrain h2{
+    display: flex;
     font-family: "MonoramaRegular";
     font-size: 4dvh;
+    text-align: center;
     margin-bottom: 1px;
-    text-align: left; 
     color: #322c26;
 }
 
+.showtell p,
+.pon p,
 .policlinico p,
 .heartbrain p{
     font-family: "MonoramaRegular";
-    text-align: left;
+    text-align: justify;
     margin-top: 10px;
     margin-right: 550px;
     font-size: 1.2vw;
     color: #322c26;
 }
 
+.showtell span,
+.pon span,
 .policlinico span,
 .heartbrain span {
     font-family: "MonoramaRegular";
@@ -56,6 +51,39 @@
     color: #322c26;
 }
 
+
+/*IMMAGINI*/
+
+.pcto{
+    position: relative;
+    width: 760px;
+    height: 150px;
+    margin: 30px 20px 30px 0px;
+}
+
+.img-showtell{
+    background: url(./showtell.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    
+}
+
+.img-pon{
+    background: url(./pon.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.img-heartbrain{
+    background: url(./heartbrain.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.img-sanmatteo{
+    background: url(./sanmatteo.jpg) no-repeat 50% 50%;
+    background-size: contain;
+}
+
+
+/*BOTTONI*/
 button {
     position: relative;
     background: none;

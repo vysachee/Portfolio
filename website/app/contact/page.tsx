@@ -10,48 +10,10 @@ export default function Contact() {
     animateLinkHover(".instagram2", "84%");
     animateLinkHover(".linkedin2", "83%");
 
-    useEffect(() => {
-        const elementsToAnimate = document.querySelectorAll(".social-links span, .contact h1,.mail p, .mail h2");
-        let animationInitialized = false;
-      
-        function animateElements() {
-            if (animationInitialized) return;
-            animationInitialized = true;
-        
-            elementsToAnimate.forEach((element: Element) => {
-                const originalText = element.textContent || "";
-                let index = 0;
-      
-                const shuffleElement = setInterval(() => {
-                    if (index < originalText.length) {
-                        let shuffledText = "";
-                        for (let i = 0; i <= index; i++) {
-                        shuffledText +=
-                            i < index ? originalText[i] : Math.random().toString(36)[2];
-                        }
-                        if (element) {
-                        element.textContent =
-                            shuffledText + originalText.substring(index + 1);
-                        }
-                        index++;
-                    } else {
-                        clearInterval(shuffleElement);
-                        if (element) {
-                        element.textContent = originalText;
-                        }
-                    }
-                }, 60);
-            });
-        }
-        animateElements();
-    });
-
     return ( 
         <main> 
             <div className="contact">
                 <h1>CONTACT</h1>
-                
-                <h3>/ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /</h3>
                 
                 <div className="contact-sections">
                     <div className="mail">

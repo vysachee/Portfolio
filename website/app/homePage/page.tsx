@@ -140,21 +140,37 @@ export default function Home() {
 
           <div className="slide-info">
             <div className="name">
-              <p>NOME</p>
+              <p>titolo</p>
               <p>TOMS</p>
+              <br/>
+              <p>7 e mezzo</p>
+              <br/>
+              <p>Contaminazione informatica</p>
             </div>
             <div className="language">
               <p>LINGUAGGI</p>
               <p>javascript, css</p>
+              <br/>
+              <p>java</p>
+              <br/>
+              <p>HTML, css</p>
             </div>
             <div className="year">
               <p>ANNO</p>
               <p>2024</p>
+              <br/>
+              <p>2023</p>
+              <br/>
+              <p>2021</p>
             </div>
 
             <div className="type">
               <p>TIPO</p>
               <p>portfolio</p>
+              <br/>
+              <p>gioco</p>
+              <br/>
+              <p>quiz</p>
             </div>
           </div>
         </div>

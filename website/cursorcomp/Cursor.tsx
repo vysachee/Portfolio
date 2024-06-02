@@ -6,8 +6,8 @@ import "./cursor.css"
 const Cursor = () => {
     
     useEffect(() => {
-        const cursor = document.getElementById('custom-cursor')!;
-        const links = document.querySelectorAll('a');
+        const cursor = document.getElementById('custom-cursor')!
+        const links = document.querySelectorAll('a')
         
         cursor.style.display = "none";
         

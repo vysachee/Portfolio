@@ -1,0 +1,71 @@
+.work-text {
+    text-align: left;
+    margin-left: 28.5dvh;
+}
+
+.work-text h1{
+    font-family: "PowerChord Regular";
+    text-align: left;
+    font-size: 90px;
+    margin-left: 55.5dvh;
+    margin-top: 120px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    line-height: 85%;
+}
+
+.work-text p{
+    font-family: "MonoramaRegular";
+    text-align: center;
+    margin-top: 5vh;
+    margin-right: 30dvh;
+    font-size: 1.2vw;
+    color: #322c26;
+}
+
+/*IMMAGINI*/
+.horizontal-scroll-section {
+    position: relative;
+    height: 200vh;  
+  }
+  
+  .horizontal-scroll-container {
+    position: sticky;
+    top: 0;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .horizontal-scroll-content {
+    display: flex;
+    gap: 16px; 
+  }
+  
+  .horizontal-scroll-card {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    background-color: #d3d3d3; 
+  }
+  
+  .horizontal-scroll-card-image {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    transition: transform 0.3s ease;
+  }
+  
+  .horizontal-scroll-card-content {
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+    display: grid;
+    place-content: center;
+  }
+  
+  .horizontal-scroll-card:hover .horizontal-scroll-card-image {
+    transform: scale(1.1);
+  }
