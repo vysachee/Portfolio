@@ -12,9 +12,7 @@ const menuLinks = [
   { path: "/contact", label: "Contacts." },
 ];
 
-
 const Menu = () => {
-
 
   const container = useRef<HTMLDivElement>(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
