@@ -13,7 +13,6 @@ const menuLinks = [
 ];
 
 function animateLinkHover2(selector: string, width: string) {
-  useEffect(() => {
       const socialLink = document.querySelector(selector);
 
       if (socialLink) {
@@ -35,7 +34,6 @@ function animateLinkHover2(selector: string, width: string) {
               socialLink.removeEventListener("mouseleave", handleMouseLeave);
           };
       }
-  }, [selector]);
 }
 
 const Menu = () => {
