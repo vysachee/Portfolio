@@ -140,7 +140,7 @@ export default function Home() {
 
           <div className="slide-info">
             <div className="name">
-              <p>titolo</p>
+              <p>Progetto</p>
               <p>TOMS</p>
               <br/>
               <p>7 e mezzo</p>

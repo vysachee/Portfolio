@@ -49,7 +49,7 @@ export default function Work() {
     
     const cards: CardType[] = [
         {
-          url: "/img-one.jpg",
+          url: "/work-img1.png",
           id: 1,
         },
         {

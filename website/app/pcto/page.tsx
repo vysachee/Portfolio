@@ -26,8 +26,8 @@ export default function Pcto() {
                     <div className="pcto img-showtell"/>
                     <div className="content1">
                         <p>
-                            Durante il mio 4° anno ho partecipato ad un progetto in collaborazione con l'Università di Pavia
-                            qui io e i miei compagni abbiamo seguito un corso pomeridiano sullo storytelling e abbiamo creato un video che raccontava della storia di Garibaldi e dell'amputazione della sua gamba,
+                            Durante il mio 4° anno ho partecipato ad un progetto in collaborazione con l'Università di Pavia.<br/>
+                            Qui io e i miei compagni abbiamo seguito un corso pomeridiano sullo storytelling e abbiamo creato un video che raccontava della storia di Garibaldi e dell'amputazione della sua gamba,
                             doppiando le voci dei personaggi.
                         </p>
                     </div>
