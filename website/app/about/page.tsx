@@ -86,7 +86,7 @@ export default function About() {
           <br/>
           <br/>
           Ho scelto questo indirizzo perchè la programmazione mi ha sempre affascinato e in questi anni,
-          imparandola, questa passione ha continuato a crescere e, in futuro, questo campo sarà ancora più evoluto e quindi saranno ricercate più persone 
+          imparandola, questa passione ha continuato a crescere e, in futuro, questo campo sarà ancora più evoluto perciò saranno ricercate più persone 
           specializzate nel mondo dell'informatica.
           <br/>
         </h2>

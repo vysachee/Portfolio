@@ -24,48 +24,37 @@
 }
 
 /*IMMAGINI*/
-.horizontal-scroll-section {
-    position: relative;
-    height: 200vh;  
-  }
-  
-  .horizontal-scroll-container {
-    position: sticky;
-    top: 0;
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    overflow: hidden;
-  }
-  
-  .horizontal-scroll-content {
-    display: flex;
-    gap: 16px; 
-  }
-  
-  .horizontal-scroll-card {
-    position: relative;
-    height: 400px;
-    width: 400px;
-    overflow: hidden;
-    background-color: #d3d3d3; 
-  }
-  
-  .horizontal-scroll-card-image {
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-    transition: transform 0.3s ease;
-  }
-  
-  .horizontal-scroll-card-content {
-    position: absolute;
-    inset: 0;
-    z-index: 10;
-    display: grid;
-    place-content: center;
-  }
-  
-  .horizontal-scroll-card:hover .horizontal-scroll-card-image {
-    transform: scale(1.1);
-  }
+.block-container2{
+  display: flex;
+  flex-direction: row;
+}
+
+.block2{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 10px 20px 30px 80px;
+}
+
+.block2 h1{
+  position: relative;
+  font-family: "MonoramaRegular";
+  font-weight: normal;
+  font-size: 45px;
+  color: black;
+}
+
+.block2-1{
+  background: url(/work-img1.png) no-repeat 50% 50%;
+  background-size: contain;
+}
+
+.block2-2{
+  background: url(/work-img2.png) no-repeat 50% 50%;
+  background-size: contain;
+}
+
+.block2-3{
+  background: url(/sicurezza.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}

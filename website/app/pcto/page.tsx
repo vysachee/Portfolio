@@ -3,7 +3,6 @@
 import "./pcto.css"
 
 import React, { useEffect } from "react";
-import animateLinkHover from "../animateLinkLine";
 import Link from "next/link";
 
 export default function Pcto() {

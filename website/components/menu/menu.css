@@ -45,7 +45,6 @@ BA5624
 .menu-logo2 a{
     color: #ffd6a1;
     font-size: 30px;
-    letter-spacing: 0.03em;
     font-family: 'PowerChord Regular';
 }
 
@@ -62,7 +61,7 @@ BA5624
     color: #ffd6a1;
     font-size: 30px;
     cursor: pointer;
-    letter-spacing: 0.03em;
+    
     font-family: 'PowerChord Regular';
 }
 
@@ -83,7 +82,7 @@ BA5624
     flex: 2;
     display: flex;
     align-items: flex-end;
-    cursor: pointer;
+    
 }
 
 .menu-copy {
@@ -146,7 +145,7 @@ BA5624
 }
 
 .menu-info-col {
-    flex: 3;
+    flex: 2;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

@@ -113,9 +113,16 @@ export default function Home() {
 
         <div className="sub-nav">
           <p className="intro">
-            Hey, sono Tomas Daidone, ma puoi chiamarmi toms. <br></br>Sono uno studente di informatica & un aspirante programmatore.
+            Hey, sono Tomas Daidone. <br></br>Sono uno studente di informatica & un aspirante programmatore.
           </p>
           <p className="primary"> portfolio 2024</p>
+        </div>
+
+        <div className='text-wrapper'>
+          <h1>WELCOME !!!</h1>
+          <h1>WELCOME !!!</h1>
+          <h1>WELCOME !!!</h1>
+          <h1>WELCOME !!!</h1>
         </div>
 
         <div className="hero-img">
@@ -135,7 +142,7 @@ export default function Home() {
           <div className="slide-copy">
             <div className="slide-index"><p>y / 05</p></div>
             <div className="slide-name"><p> tomas daidone</p></div>
-            <button>english</button>
+            
           </div>
 
           <div className="slide-info">
