@@ -1,10 +1,13 @@
 "use client";
 import "./work.css";
 import React from "react";
-
+import Link from 'next/link';
 export default function Work() {
 
     return (
+
+
+
         <div className="work-text">
             <h1>
                 Work
@@ -17,6 +20,7 @@ export default function Work() {
                 <br/>
                 <center>Qui trovate alcuni dei progetti che ho creato durante il mio percorso:</center>
             </p>
+            
             
             <div className="block-container2">
                 <div className="block2 block2-1">
