@@ -80,6 +80,7 @@
 
 .blocks-container{
     display: flex;
+    align-items: center;
     flex-direction: row;
     border-radius: 10px 10px 10px 10px;
 }
