@@ -112,8 +112,8 @@ button:hover:after {
     align-items: center; /* Aggiunto per centrare verticalmente il testo */
     background:#322c26;
     overflow: hidden;
-    width: 600px;
-    height: 200px;
+    height: 27.2vh;
+    width: 30%;
     position: absolute;
     margin-left: 8vh;
     bottom: 35%;

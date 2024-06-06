@@ -1,13 +1,9 @@
 "use client";
 import "./work.css";
 import React from "react";
-import Link from 'next/link';
 export default function Work() {
 
     return (
-
-
-
         <div className="work-text">
             <h1>
                 Work

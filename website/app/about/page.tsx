@@ -54,7 +54,7 @@ export default function About() {
 
   const cards: CardType[] = [
     {
-      url: "/img-one.jpg",
+      url: "/imgprova.jpg",
       id: 1,
     },
     {
