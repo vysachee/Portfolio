@@ -14,7 +14,7 @@ export default function Work() {
                 che mi hanno permesso di sviluppare diversi progetti.
                 <br/>
                 <br/>
-                <center>Qui trovate alcuni dei progetti che ho creato durante il mio percorso:</center>
+                Qui trovate alcuni dei progetti che ho creato durante il mio percorso:
             </p>
             
             

@@ -26,7 +26,7 @@
 /*IMMAGINI*/
 .block-container2{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .block2{
@@ -45,7 +45,7 @@
 }
 
 .block2-1{
-  background: url(/work-img1.png) no-repeat 50% 50%;
+  background: url(/work-img3.png) no-repeat 50% 50%;
   background-size: contain;
 }
 
@@ -54,7 +54,7 @@
   background-size: contain;
 }
 
-.block2-3{
-  background: url(/sicurezza.jpg) no-repeat 50% 50%;
-  background-size: cover;
+.block-3{
+  background: url(/work-img1.png) no-repeat 50% 50%;
+  background-size: contain;
 }
