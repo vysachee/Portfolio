@@ -25,32 +25,20 @@
 }
 
 .menu-bar a {
-    -webkit-text-stroke-width: 1.4px;
+    -webkit-text-stroke-width: 0.19vh;
     -webkit-text-stroke-color: #9e6240;
 }
-
-/*9e6240
-dea47e
-cd4631
-2f323a*/
-
-/*
-FCDE9C
-FFA552
-BA5624
-550C18*/
-
 
 .menu-logo a,
 .menu-logo2 a{
     color: #ffd6a1;
-    font-size: 30px;
+    font-size: 4vh;
     font-family: 'PowerChord Regular';
 }
 
 .menu-open p {
     color: #322c26;
-    font-size: 30px;
+    font-size: 4vh;
     cursor: pointer;
     letter-spacing: 0.03em;
     font-family: 'PowerChord Regular';
@@ -59,7 +47,7 @@ BA5624
 
 .menu-close p {
     color: #ffd6a1;
-    font-size: 30px;
+    font-size: 4vh;
     cursor: pointer;
     
     font-family: 'PowerChord Regular';
@@ -104,13 +92,13 @@ BA5624
 
 .menu-preview p{
     color: #ffd6a1;
-    font-size: 25px;
+    font-size: 3.4vh;
     font-family: 'MonoramaRegular';
 }
 
 .menu-close-icon {
-    font-size: 100px;
-    -webkit-text-stroke: 5px 0033e7; 
+    font-size: 13.6vh;
+    -webkit-text-stroke: 0.68vh 0033e7; 
     line-height: 70%;
 }
 
@@ -122,12 +110,12 @@ BA5624
 .menu-link-item-holder {
     font-family: 'PowerChord Regular';
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 2.7vh;
 }
 
 .menu-link-item-holder a {
     color: #ffd6a1;
-    font-size: 11dvh;
+    font-size: 11vh;
     font-weight: 400;
     letter-spacing: 0.03em;
     line-height: 85%;
@@ -155,29 +143,29 @@ BA5624
 .menu-info-col2 {
     flex: 2;
     display: flex;
-    margin-top: 20px;
+    margin-top: 2.7vh;
     flex-direction: column;
     font-family: 'MonoramaRegular';
 }
 
 .menu-info-col2 p{
-    margin-bottom: 11px;
+    margin-bottom: 1.5vh;
     color:#ffd6a1;
 }
 
 .instagram,
 .linkedin {
-    margin-top: 18.5px;
+    margin-top: 2.5vh;
 }
 
 .mail {
-    margin-bottom: 15px;
+    margin-bottom: 2vh;
 }
 
 .underline2{
-    height: 2.5px;
+    height: 0.3vh;
     width: 0;
-    margin-top: 7px;
+    margin-top: 0.9vh;
     text-align: left;
     background-color:#ffd6a1;     
 }
@@ -192,6 +180,6 @@ BA5624
     }
 
     .menu-link-item-holder a {
-        font-size: 20dvh; 
+        font-size: 10vh; 
     }
 }

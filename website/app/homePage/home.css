@@ -189,7 +189,7 @@ p.primary {
 .mask {
     position: absolute;
     width: 82vh;
-    height: 27vh;
+    height: 27.3vh;
     background: url(/home-img1.jpg) no-repeat 50% 50%;
     border-radius: 20px 20px 20px 20px;
     background-size: cover;
@@ -247,6 +247,10 @@ p.primary {
 
     p.intro {
         display: none;
+    }
+
+    .slide-name p {
+        font-size: 24px;
     }
     
     .type,
