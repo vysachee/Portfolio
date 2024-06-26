@@ -7,8 +7,7 @@
   
 .pcto-text h1{
     font-family: "PowerChord Regular";
-    text-align: left;
-    margin-left: 60vh;
+    text-align: center;
     font-size: 12.2vh;
     margin-top: 16.3vh;
     font-weight: 400;
@@ -55,7 +54,6 @@
 /*IMMAGINI*/
 
 .pcto{
-
     width: 103.4vh;
     height: 28vh;
     margin: 4vh 2.7vh 4vh 0vh;
