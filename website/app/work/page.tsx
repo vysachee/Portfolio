@@ -58,7 +58,7 @@ export default function Work() {
                         Si confrontano poi i punteggi e vince chi ha il punteggio più alto senza superare 7,5.    
                     </p>
                     <br/>
-                    <a download href="/SevenHalf"><span>&#8595; DOWNLOAD 7 e MEZZO</span></a>
+                    <a download href="/SevenHalf.zip"><span>&#8595; DOWNLOAD 7 e MEZZO</span></a>
                     <br/><br/>
                 </div>
 
@@ -83,7 +83,7 @@ export default function Work() {
                     </p>
                     <br/>
                     <br/>
-                    <a download href="/Cont-inf"><span>&#8595; Download Contaminazione informatica</span></a>
+                    <a download href="/Cont-inf.zip"><span>&#8595; Download Contaminazione informatica</span></a>
                     <br/><br/>
                 </div>
             </div>
