@@ -4,15 +4,16 @@
 }
 
 .work-text h1{
-    font-family: "PowerChord Regular";
-    text-align: left;
-    font-size: 90px;
-    margin-left: 55.5dvh;
-    margin-top: 120px;
-    font-weight: 400;
-    letter-spacing: 0.03em;
-    line-height: 85%;
+  font-family: "PowerChord Regular";
+  text-align: center;
+  font-size: 12.2dvh;
+  margin-top: 16.3vh;
+  margin-right: 16.3vh;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 85%;
 }
+
 
 .work-text p{
     font-family: "MonoramaRegular";
@@ -30,23 +31,18 @@
 }
 
 .block2{
-  position: relative;
-  width: 400px;
-  height: 400px;
-  margin: 10px 20px 30px 80px;
-}
 
-.block2 h1{
-  position: relative;
-  font-family: "MonoramaRegular";
-  font-weight: normal;
-  font-size: 45px;
-  color: black;
+  align-items: center;
+  width: 54.4vh;
+  height: 54.4vh;
+  margin: 1.3vh 2.7vh 4vh 10.8vh;
+  border-radius: 2.7vh 2.7vh 2.7vh 2.7vh;
 }
 
 .block2-1{
-  background: url(/work-img3.png) no-repeat 50% 50%;
+  background: url(/work-img1.png) no-repeat 50% 50%;
   background-size: contain;
+  border: 0.2vh solid black;
 }
 
 .block2-2{
@@ -54,7 +50,36 @@
   background-size: contain;
 }
 
-.block-3{
-  background: url(/work-img1.png) no-repeat 50% 50%;
+.block2-3{
+  background: url(./work-img3.png) no-repeat 50% 50%;
   background-size: contain;
+}
+
+
+h2{
+    display: flex;
+    font-family: "MonoramaRegular";
+    font-size: 4vh;
+    text-align: center;
+    margin-bottom: 0.13vh;
+    color: #322c26;
+}
+
+.toms p,
+.sette p,
+.cont-if p{
+    font-family: "MonoramaRegular";
+    text-align: justify;
+    margin-top: 1.36vh;
+    margin-right: 7.8vh;
+    font-size: 2.7vh;
+    color: #322c26;
+}
+
+.sette span,
+.cont-if span {
+    text-align: center;
+    font-family: "MonoramaRegular";
+    font-size: 1.5vw;
+    color: #322c26;
 }

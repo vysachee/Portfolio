@@ -13,9 +13,6 @@ interface CardType {
 
 export default function About() {
   
-  animateLinkHover(".resume", "100%");
-  
-
   const HorizontalScrollCarousel = () => {
     const targetRef = useRef(null);
     const { scrollYProgress } = useScroll({
@@ -108,7 +105,6 @@ export default function About() {
           <Link href="/CV.pdf" rel="noopener noreferrer" target="_blank">
             <span>&#8595; Curriculum</span>
           </Link>
-          <div className="underline"></div>
         </div>
       </div>
 
