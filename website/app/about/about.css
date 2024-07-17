@@ -1,7 +1,7 @@
 
 .about-text {
     text-align: left;
-    margin-left: 28.5vh;
+    margin-left: 28.5dvh;
 }
   
 .about-divider h2{
@@ -14,8 +14,8 @@
     font-family: "PowerChord Regular";
     text-align: center;
     font-size: 12.2dvh;
-    margin-top: 16.3vh;
-    margin-right: 16.3vh;
+    margin-top: 16.3dvh;
+    margin-right: 16.3dvh;
     font-weight: 400;
     letter-spacing: 0.03em;
     line-height: 85%;
@@ -33,28 +33,28 @@
 /*IMMAGINI*/
 .horizontal-scroll-section {
     position: relative;
-    height: 200vh;  
+    height: 200dvh;  
   }
   
   .horizontal-scroll-container {
     position: sticky;
     top: 0;
     display: flex;
-    height: 100vh;
+    height: 100dvh;
     align-items: center;
     overflow: hidden;
   }
   
   .horizontal-scroll-content {
     display: flex;
-    gap: 2.1vh; 
+    gap: 2.1dvh; 
   }
   
   .horizontal-scroll-card {
-    border-radius: 1.3vh 1.3vh 1.3vh 1.3vh;
+    border-radius: 1.3dvh 1.3dvh 1.3dvh 1.3dvh;
     position: relative;
-    height: 54.4vh;
-    width: 54.4vh;
+    height: 54.4dvh;
+    width: 54.4dvh;
     overflow: hidden;
     background-color: #d3d3d3; 
   }
@@ -82,25 +82,25 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    border-radius: 1.3vh 1.3vh 1.3vh 1.3vh;
+    border-radius: 1.3dvh 1.3dvh 1.3dvh 1.3dvh;
 }
 
 .block{
     position: relative;
     align-items: center;
-    width: 54.4vh;
-    height: 54.4vh;
-    margin: 1.3vh 2.7vh 4vh 10.8vh;
-    border-radius: 2.7vh 2.7vh 2.7vh 2.7vh;
+    width: 54.4dvh;
+    height: 54.4dvh;
+    margin: 1.3dvh 2.7dvh 4dvh 10.8dvh;
+    border-radius: 2.7dvh 2.7dvh 2.7dvh 2.7dvh;
 }
 
 .block h1{
     position: relative;
     font-family: "MonoramaRegular";
     font-weight: normal;
-    font-size: 6.1vh;
+    font-size: 6.1dvh;
     color: black;
-    margin-left: 1.3vh;
+    margin-left: 1.3dvh;
 }
 
 .block-1{
@@ -122,18 +122,18 @@
 /*RESUME*/
 .resume {
     text-align: center;
-    margin-top: 8vh;
-    margin-bottom: 5vh;
+    margin-top: 8dvh;
+    margin-bottom: 5dvh;
     min-width: fit-content;
 }
   
 .resume p{
-    font-size: 2.4vh;
+    font-size: 2.4dvh;
     color: #322c26;
 }
   
 .resume span{
-    font-size: 5.1vh;
+    font-size: 5.1dvh;
     color: #322c26;
     font-family: "MonoramaRegular";
 }

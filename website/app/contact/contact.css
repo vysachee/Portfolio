@@ -2,9 +2,9 @@
 .contact h1{ 
   font-family: "PowerChord Regular";
   text-align: center;
-  font-size: 12.2vh;
+  font-size: 12.2dvh;
   font-weight: 400;
-  margin-top: 16.3vh;
+  margin-top: 16.3dvh;
   letter-spacing: 0.03em;
   line-height: 85%;
   
@@ -15,36 +15,36 @@
   color: #322c26;
 }
 .contact-sections {
-  margin-left: 10vh;
+  margin-left: 10dvh;
   justify-content: flex-start;
   flex-direction: row; 
-  margin-top: 2.7vh; 
+  margin-top: 2.7dvh; 
 }
   
 .twitter,
 .instagram,
 .linkedin {
-  margin-top: 2.5vh;
+  margin-top: 2.5dvh;
   min-width: fit-content;
   font-family: "MonoramaRegular";
 }
   
 .mail h2
 {
-  font-size: 5vh;
-  margin-top: 2.5vh;
+  font-size: 5dvh;
+  margin-top: 2.5dvh;
   text-align: center;
 }
 
 .social h2
 {
-  font-size: 5vh;
-  margin-top: 2.5vh;
+  font-size: 5dvh;
+  margin-top: 2.5dvh;
   text-align: justify;
 }
 
 .social h2{
-  margin-bottom: 2.5vh;
+  margin-bottom: 2.5dvh;
 }
 
 .mail,
@@ -56,15 +56,15 @@
 }
   
 .mail p {
-  font-size: 3vh;
-  margin-top: 3vh;
-  margin-right: 1.3vh;
+  font-size: 3dvh;
+  margin-top: 3dvh;
+  margin-right: 1.3dvh;
 }
 
 .social-links a {
-  font-size: 3vh;
-  margin-top: 3vh;
-  margin-right: 5vh; 
+  font-size: 3dvh;
+  margin-top: 3dvh;
+  margin-right: 5dvh; 
 }
 
 .social-links {
