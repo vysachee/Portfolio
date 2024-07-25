@@ -79,11 +79,11 @@ export default function About() {
         <h2>
 
           <br/>
-          Hey sono Tomas Daidone, sono uno studente al 5° anno dell'istituto Istituto Tecnico Industriale Statale G. Cardano nell'indirizzo informatica.
+          Hey, sono Tomas Daidone, sono uno studente che si è diplomato all'istituto Istituto Tecnico Industriale Statale G. Cardano nell'indirizzo informatica.
           <br/>
           <br/>
           Ho scelto questo indirizzo perchè la programmazione mi ha sempre affascinato e in questi anni,
-          imparandola, questa passione ha continuato a crescere e, in futuro, questo campo sarà ancora più evoluto perciò saranno ricercate più persone 
+          imparandola, questa passione ha continuato a crescere; in futuro, questo campo sarà ancora più evoluto perciò saranno ricercate più persone 
           specializzate nel mondo dell'informatica.
           <br/>
         </h2>
@@ -93,10 +93,10 @@ export default function About() {
           <br/>
           Altre passioni che ho sono la lettura e gli sport, in particolare il basket, la pallavolo e l'atletica leggera.
           <br/>
-          Uno dei miei sogni, una volta finite le superiori, è quello di girare per il mondo e conoscere persone di culture diverse dalla mia.
+          Uno dei miei sogni, è quello di girare per il mondo e conoscere persone di varie culture.
           <br/>
           <br/>
-          <center>Qui trovate il mio curriculum e diverse certificazioni che ho ottenuto nel corso di questi 5 anni:</center>
+          <center>Qui trovate il mio curriculum e le diverse certificazioni che ho ottenuto durante il mio percorso scolastico:</center>
         </h2>
       </div>
 
@@ -118,7 +118,7 @@ export default function About() {
           </div>
             
           <div className="block block-3">
-            <h1>Rischio basso.</h1>
+            <h1>Rischio Medio.</h1>
           </div>
       </div>
     </main>

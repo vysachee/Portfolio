@@ -40,6 +40,8 @@
 }
 
 .block2-1{
+  width: 54.4vh;
+  height: 35.4vh;
   background: url(/work-img1.png) no-repeat 50% 50%;
   background-size: contain;
   border: 0.2vh solid black;
